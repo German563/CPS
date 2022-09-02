@@ -1,0 +1,45 @@
+body {
+
+}
+.container {
+
+    }
+
+nav {
+    width: 340px;
+    height: 87px;
+    
+}
+button {
+    background-color: white;
+    border: none;
+    padding: 5px;
+}
+
+logo-wrapper {
+    margin-left: 5px;
+}
+
+.divider {
+    width: 2px;
+    height: 32px;
+    background-color: #EAEAEA;
+    padding: 0px;
+    display: inline-block;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+ul {
+    align-items: center;s
+}
+
+li {
+ list-style: none;
+ margin: 3px;
+}
+
+a 
+    img {
+        margin-bottom: 5px;
+}
