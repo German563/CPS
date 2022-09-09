@@ -1,27 +1,28 @@
-@media (min-width: 650px) and (max-width: 1000px) {
-
+@media (min-width: 1000px) and (max-width: 1800px) {
+    * {
+        
+        font-style: normal;
+	    font-weight: normal;
+        max-width:1520px;
+    }    
     @font-face {
         font-family: "TT Lakes Extra Light";
         font-style: normal;
         font-weight: normal;
         src: url(/TTLakes/TTLakes-ExtraLight.ttf);
     }
-    * {
-        font-style: normal;
-	    font-weight: normal;
- 
-    }
-    body {
-        font-family: "TTLakes-ExtraLight";
-    }
+        body {
+            font-family: "TT Lakes Extra Light";
+        }
         .container {
          color:   #F8F8F8;
             }
         
         h1 {
-            margin-top: 0;
+            margin-top: -80px;
             color: 
             #1B1C21;
+            font-weight: bold;
         }
         
         nav {
@@ -32,13 +33,25 @@
         }
         .menu {
             list-style-type: none;
+
         }
         button {
             background-color: white;
             border: none;
             padding: 5px;
+        }        
+        .pc-menu-text {
+            margin-top: 12px;
+            margin-right: 7px;
+           float: left;
+           text-align: center;
+           align-items: center;
         }
         
+        .delete-for-pc {
+            display: none;
+        }
+
         logo-wrapper {
             margin-left: 5px;
         }
@@ -56,18 +69,7 @@
         
         }
         .divider-pad {
-            width: 2px;
-            height: 32px;
-            background-color: #EAEAEA;
-            padding: 0px;
-            display: inline-block;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            margin-left: 8px;
-            align-items: center;
-            position: absolute;
-            top: 27px;
-            right: 115px;
+          display: none;
         }
         
         .repair {
@@ -81,17 +83,24 @@
             
         }
 
-
         .links-wrapper {
+            display: none;
+        }
+        .links-wrapper-pc {
             display: flex;
             justify-content: space-between;
             overflow: hidden;
             padding: 5px;
-            height: 30px;
+            height: 35px;
             align-items: center;
         
         }
-
+        #bag {
+            position: absolute;
+            left: 55px;
+            top: 140px 
+        
+        }
 
         ul {
             flex-direction: row;
@@ -111,14 +120,16 @@
         }
         
         .text-wrapper {
-        width: 312px;
-        height: 127px;
+        width: 600px;
         margin: 5px;
         color:#1B1C21;
         margin-top: 30px;
-        overflow: hidden;
+        margin-top: 50px;
         }
-        
+        .pic-wrapper img {
+            width: 150%;
+            margin-left: -80px;
+        }
         .read-further {
             padding: 5px;
             align-items: center;
@@ -143,11 +154,17 @@
             margin-top: -165px;
         }
      .pad-buttons {
-         display: inline-flex;
+         display: none;
         margin-left: 30%;
-
-    
      }   
+logo-wrapper {
+    display: none;
+}
+.divider {
+    display: none;
+}
+
+
      .mobile-wrapper {
         margin-top: 2px;
         display: inline-flex;
@@ -169,21 +186,14 @@
         margin-left: 25px;
      }
    
-    .repair-wrapper :hover {
+    .repair-wrapper-pc :hover {
         border: solid 2px #B8FFEC;
         border-radius: 5px;
         background-color: #FFFFFF;
     
     }
-    .links-wrapper-pc {
-        display: none;
-     }
-     .pc-menu-text {
-        display: none;
-     }
-     .pad-hide {
-        display: none;
-     }
+    
+
     }
 
 

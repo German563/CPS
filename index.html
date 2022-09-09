@@ -15,16 +15,18 @@
         <li>
             <button class="menu">
                 
-                <a href="#"><img src="/img/icon1.png" alt=""></a>
+                <a class="delete-for-pc" href="#"><img src="/img/icon1.png" alt=""></a>
             </button>
             <logo-wrapper><img src="/img/CPS.png" alt="CPS"></logo-wrapper> 
             <div class="divider"></div>
             <div class="mobile-wrapper">
                 <button class="menu">
+                    <div class="pc-menu-text">Оставить заявку</div>
                     <a href="#"><img src="/img/icon2.png" alt=""></a>
                 </button>
                 <button class="menu">
-                    <a href="#"><img src="/img/icon3.png" alt=""></a>
+                    <div class="pc-menu-text">Статус ремонта</div>
+                    <a href ="#"><img src="/img/icon3.png" alt=""></a>
                 </button>
             </div>
             <div class="divider-pad"></div>
@@ -44,21 +46,33 @@
     </nav>
     <h1>Услуги и сервисы</h1>
 
-    <ul>
+    <ul class="ul-repair">
         <li class="links">
          <div class="links-wrapper">
             <div class="repair-wrapper"><a class="repair" href="#">Ремонтируемые устройства</a></div>
              <div class="repair-wrapper"> <a class="repair" class="repair-pad" href="#">Дополнительные услуги</a></div>
              <div class="repair-wrapper"> <a class="repair" class="repair-pad" href="#">Цены на услуги</a></div>
-             <div class="repair-wrapper"><a class="repair" class="repair-pad" href="#">Специальные цены</a></div>    
+             <div class="repair-wrapper"><a class="repair" class="repair-pad" href="#">Специальные цены</a></div>   
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li class="links">
+         <div class="links-wrapper-pc">
+            <div class="repair-wrapper-pc"><a class="repair" href="#">Ремонтируемые бренды</a></div>
+             <div class="repair-wrapper-pc"> <a class="repair" class="repair-pad" href="#">Ремонтируемые устройства</a></div>
+             <div class="repair-wrapper-pc"> <a class="repair" class="repair-pad" href="#">Цены на услуги</a></div>
+             <div class="repair-wrapper-pc"> <a class="repair" class="repair-pad" href="#">Адреса сервисных центров</a></div>
+             <div class="repair-wrapper-pc"><a class="repair" class="repair-pad" href="#">Специальные цены</a></div>  
+             <div class="repair-wrapper-pc" id="bag"><a class="repair" class="repair-pad" href="#">Отзывы</a></div>     
             </div>
         </li>
     </ul>
 
     <div class="text-wrapper">
         Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-
-        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
+        <br>
+        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="pad-hide">,</span> что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
     </div>
     <div class="read-further">
         <a href="#" class="read-further-text"> <img class="read-further-img" src="/img/arrow.png" alt=""> Читать далее</a>

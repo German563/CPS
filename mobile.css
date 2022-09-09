@@ -1,9 +1,15 @@
 @media (min-width: 10px) and (max-width: 650px) {
 
-    
+    @font-face {
+        font-family: "TT Lakes Extra Light";
+        font-style: normal;
+        font-weight: normal;
+        src: url(/TTLakes/TTLakes-ExtraLight.ttf);
+    }
     body {
     height: 596px;
     max-width: 320px;
+    font-family: "TTLakes-ExtraLight";
     }
     .container {
      color:   #F8F8F8;
@@ -46,6 +52,8 @@
     .repair {
         margin-left: 15px;
         text-decoration: none;
+        color: grey;
+        
 
     }
     
@@ -60,6 +68,8 @@
         overflow-y : hidden;
         overflow-x: hidden;
         white-space: nowrap;
+
+    
     
     }
 
@@ -71,7 +81,9 @@
         margin-top: -4px;
 
     }
-    
+    .ul-repair {
+        margin-left: -50px;
+    }
     li {
      list-style-type: none;
      margin: 3px;
@@ -85,8 +97,10 @@
     
     .text-wrapper {
     width: 310px;
+    height: 90px;
     margin: 5px;
     color:#1B1C21;
+    overflow: hidden;
     }
     
     .read-further {
@@ -119,5 +133,10 @@
  .pad-links {
     display: none;
  }
-
+ .links-wrapper-pc {
+    display: none;
+ }
+ .pc-menu-text {
+    display: none;
+ }
 }
