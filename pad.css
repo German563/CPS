@@ -1,4 +1,4 @@
-@media (min-width: 450px) and (max-width: 1800px) {
+@media (min-width: 650px) and (max-width: 1800px) {
     * {
         font-family: "TTLakes";
         font-style: normal;
@@ -157,6 +157,7 @@
      }
      .links {
         display: flex;
+
 
      }
      ul .links :first-child {

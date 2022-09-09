@@ -1,5 +1,6 @@
 @media (min-width: 10px) and (max-width: 650px) {
 
+    
     body {
     height: 596px;
     max-width: 320px;
@@ -43,32 +44,32 @@
     }
     
     .repair {
-        display: none;
+        margin-left: 15px;
+        text-decoration: none;
 
     }
-    .links-wrapper :first-child {
+    
+
+    .links-wrapper {
         display: flex;
+        flex-direction: row;
         text-decoration: none;
         color: grey;
-        line-height:24px;
-        margin-left: -30px;
-        
-        
-        
-    }
-  
-    .links :hover :first-of-type {
-        border: solid 2px #B8FFEC;
-        border-radius: 5px;
-        
+        padding: 10px;
+        line-height:18px;           
+        overflow-y : hidden;
+        overflow-x: hidden;
+        white-space: nowrap;
+    
     }
 
-    .links .pad-links {
-        justify-content: space-between;
-    }
-    ul {
-        margin: auto;
- 
+
+    .links-wrapper :hover :first-child{
+        border: solid 2px #B8FFEC;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        margin-top: -4px;
+
     }
     
     li {
@@ -76,7 +77,7 @@
      margin: 3px;
      display: flex;
     }
-    
+
     a 
         img {
             margin-bottom: 5px;
