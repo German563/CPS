@@ -184,6 +184,12 @@
      .pad-hide {
         display: none;
      }
+     .cross-wrapper {
+        display: none;
+     }
+     .search-wrapper {
+        display: none;
+     }
     }
 
 

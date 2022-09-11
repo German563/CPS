@@ -192,7 +192,12 @@ logo-wrapper {
         background-color: #FFFFFF;
     
     }
-    
+    .cross-wrapper {
+        display: none;
+     }
+     .search-wrapper {
+        display: none;
+     }
 
     }
 

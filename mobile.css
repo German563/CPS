@@ -1,4 +1,4 @@
-@media (min-width: 10px) and (max-width: 650px) {
+@media (min-width: 321px) and (max-width: 650px) {
 
     @font-face {
         font-family: "TT Lakes Extra Light";
@@ -137,6 +137,12 @@
     display: none;
  }
  .pc-menu-text {
+    display: none;
+ }
+ .cross-wrapper {
+    display: none;
+ }
+ .search-wrapper {
     display: none;
  }
 }
