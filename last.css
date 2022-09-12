@@ -1,0 +1,190 @@
+@media (width: 320px){
+
+    @font-face {
+        font-family: "TT Lakes Extra Light";
+        font-style: normal;
+        font-weight: normal;
+        src: url(/TTLakes/TTLakes-ExtraLight.ttf);
+    }
+    * {
+        font-style: normal;
+	    font-weight: normal;
+ 
+    }
+    body {
+        font-family: "TTLakes-ExtraLight";
+    }
+        .container {
+         color:   #F8F8F8;
+            }
+        
+        h1 {
+            margin-top: 0;
+            color: 
+            #1B1C21;
+        }
+        
+        nav {
+            width: 770px;
+            height: 87px;
+            margin-left: -40px;
+            
+        }
+        .menu {
+            list-style-type: none;
+        }
+        button {
+            background-color: white;
+            border: none;
+            padding: 5px;
+        }
+        
+        logo-wrapper {
+            margin-left: 5px;
+        }
+        
+        .divider {
+            width: 2px;
+            height: 32px;
+            background-color: #EAEAEA;
+            padding: 0px;
+            display: inline-block;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            margin-left: 8px;
+            align-items: center;
+        
+        }
+        .divider-pad {
+            width: 2px;
+            height: 32px;
+            background-color: #EAEAEA;
+            padding: 0px;
+            display: inline-block;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            margin-left: 8px;
+            align-items: center;
+            position: absolute;
+            top: 27px;
+            right: 115px;
+        }
+        
+        .repair {
+            text-decoration: none;
+            color: grey;
+            Size: 16px;
+            line-height:7px;
+            height: 20px;
+            padding: 10px;
+            
+            
+        }
+
+
+        .links-wrapper {
+            display: flex;
+            justify-content: space-between;
+            overflow: hidden;
+            padding: 5px;
+            height: 30px;
+            align-items: center;
+        
+        }
+
+
+        ul {
+            flex-direction: row;
+            
+        }
+        
+        li {
+         list-style-type: none;
+         margin: 3px;
+         width: auto;
+        }
+        
+
+        a 
+            img {
+                margin-bottom: 5px;
+        }
+        
+        .text-wrapper {
+        width: 312px;
+        height: 127px;
+        margin: 5px;
+        color:#1B1C21;
+        margin-top: 30px;
+        overflow: hidden;
+        }
+        
+        .read-further {
+            padding: 5px;
+            align-items: center;
+        
+        
+        }
+        .read-further-text {
+            text-decoration: none;
+            color: black;
+        
+        
+        }
+        .read-further-img {
+            margin-left: 5px;
+            margin-right: 10px;
+            margin-bottom: 0;
+        
+        }
+        .pic-wrapper {
+            position: absolute;
+            right: 0;
+            margin-top: -165px;
+        }
+     .pad-buttons {
+         display: inline-flex;
+        margin-left: 30%;
+
+    
+     }   
+     .mobile-wrapper {
+        margin-top: 2px;
+        display: inline-flex;
+        position: absolute;
+        right: 0;
+
+
+     }
+     .pad-links {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        right: 110px;
+        top: 25%;
+        width: 300px;
+
+     }
+     .repair-pad {
+        margin-left: 25px;
+     }
+   
+    .repair-wrapper :hover {
+        border: solid 2px #B8FFEC;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    
+    }
+    .links-wrapper-pc {
+        display: none;
+     }
+     .pc-menu-text {
+        display: none;
+     }
+     .pad-hide {
+        display: none;
+     }
+
+    }
+
+
