@@ -1,4 +1,4 @@
-@media (min-width: 1000px) and (max-width: 1800px) {
+@media (min-width: 1000px) and (max-width: 18000px) {
     * {
         
         font-style: normal;
@@ -20,17 +20,19 @@
         
         h1 {
             margin-top: -80px;
+            margin-left: 20px;
             color: 
             #1B1C21;
             font-weight: bold;
         }
         
         nav {
-            width: 770px;
+            width: 1080px;
             height: 87px;
-            margin-left: -40px;
+        
             
         }
+       
         .menu {
             list-style-type: none;
 
@@ -89,15 +91,14 @@
         .links-wrapper-pc {
             display: flex;
             justify-content: space-between;
-            overflow: hidden;
             padding: 5px;
             height: 35px;
             align-items: center;
         
         }
-        #bag {
+        #review {
             position: absolute;
-            left: 55px;
+            left: 13px;
             top: 140px 
         
         }
@@ -185,11 +186,12 @@ logo-wrapper {
      .repair-pad {
         margin-left: 25px;
      }
-   
+
     .repair-wrapper-pc :hover {
         border: solid 2px #B8FFEC;
         border-radius: 5px;
         background-color: #FFFFFF;
+        margin-left: -4px;
     
     }
     .cross-wrapper {

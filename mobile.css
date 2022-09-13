@@ -1,4 +1,4 @@
-@media (min-width: 321px) and (max-width: 650px) {
+@media (min-width: 1px) and (max-width: 650px) {
 
     @font-face {
         font-family: "TT Lakes Extra Light";
@@ -72,7 +72,7 @@
     
     
     }
-
+    
 
     .links-wrapper :hover :first-child{
         border: solid 2px #B8FFEC;
@@ -80,6 +80,9 @@
         background-color: #FFFFFF;
         margin-top: -4px;
         padding: 8px;
+        margin-left: -4px;
+       
+       
 
     }
     .ul-repair {

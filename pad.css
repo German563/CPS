@@ -85,7 +85,6 @@
         .links-wrapper {
             display: flex;
             justify-content: space-between;
-            overflow: hidden;
             padding: 5px;
             height: 30px;
             align-items: center;
@@ -168,12 +167,15 @@
      .repair-pad {
         margin-left: 25px;
      }
-   
+    .repair-wrapper {
+     border:  solid transparent 2px;
+     border-radius: 5px;
+    }
     .repair-wrapper :hover {
         border: solid 2px #B8FFEC;
         border-radius: 5px;
         background-color: #FFFFFF;
-    
+        margin-left: -4px;
     }
     .links-wrapper-pc {
         display: none;
@@ -188,6 +190,9 @@
         display: none;
      }
      .search-wrapper {
+        display: none;
+     }
+     #nav-for-pc {
         display: none;
      }
     }
