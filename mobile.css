@@ -27,6 +27,9 @@
 
         
     }
+    #nav-for-pc {
+        display: none;
+    }
     .menu {
         list-style-type: none;
     }
