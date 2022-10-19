@@ -3,7 +3,7 @@
         
         font-style: normal;
 	    font-weight: normal;
-        max-width:1520px;
+        
     }    
     @font-face {
         font-family: "TT Lakes Extra Light";
@@ -11,11 +11,24 @@
         font-weight: normal;
         src: url(/TTLakes/TTLakes-ExtraLight.ttf);
     }
+    .menu-bar-left {
+        background: WHITE;
+        width: 306px;
+        height: 1200px;
+        margin-left: -10px;
+        
+    }
+
         body {
-            font-family: "TT Lakes Extra Light";
+            
+        background-color: #F8F8F8;
+                        font-family: "TT Lakes Extra Light";
         }
         .container {
-         color:   #F8F8F8;
+            position: absolute;
+            left: 320px;
+            top: 0px;
+            color:   #F8F8F8;
             }
         
         h1 {
@@ -38,7 +51,7 @@
 
         }
         button {
-            background-color: white;
+            background-color: #F8F8F8;
             border: none;
             padding: 5px;
         }        
@@ -200,6 +213,13 @@ logo-wrapper {
      .search-wrapper {
         display: none;
      }
+     .search-wrapper-menu {
+        margin-left: 70px;
+        background-color: #FF3E79;
+        border-radius: 100%;
+        padding: 10px 12px;
+     }
+     
 
     }
 

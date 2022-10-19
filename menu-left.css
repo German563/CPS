@@ -1,0 +1,112 @@
+@media (min-width: 1200px) and (max-width: 13350px) {
+
+    @font-face {
+        font-family: "TT Lakes Extra Light";
+        font-style: normal;
+        font-weight: normal;
+        src: url(/TTLakes/TTLakes-ExtraLight.ttf);
+    }
+    
+    .menu-bar-container {
+        margin: -12px;
+       
+        padding-top: 23px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        
+    
+    }
+    .menu-bar-container button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .menu-bar-container a {
+        text-decoration: none;
+        color: black;
+    }
+    .menu-bar-container .search-wrapper {
+        margin-left: 70px;
+        background-color: #FF3E79;
+        border-radius: 100%;
+        padding: 10px 12px;
+    }
+    
+    .menu-bar-container .logo-wrapper {
+        margin-left: 16px;
+        
+    }
+    .menu-bar-container .cross-wrapper {
+        margin-left: 10px;
+        background-color: #FF3E79;
+        border-radius: 100%;
+        padding: 10px 12px;
+        
+    }
+    nav ul {
+        
+        list-style: none;
+        /* border: 2px black solid transparent; */
+        
+    }
+    nav li {
+        padding: 5px 0 5px 15px;
+        
+    }
+    nav ul :hover {
+        color: #7E7E82;
+        cursor: pointer;
+        border-left: solid 3px #41F6D7;
+        border-radius: 2px;
+       
+    
+    }
+    
+    .img-wrapper-footer{
+        margin-top: 268px;
+        margin-left: 24px;
+        
+    
+    }
+    .img-wrapper-footer button {
+        background-color: #FF3E79;
+        border-radius: 100%;
+        padding: 10px 12px;
+        margin: 10px;
+        
+        
+        
+    }
+    
+    .text-wrapper-footer {
+        margin-left: 24px;
+    }
+    .phone-footer {
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 24px;
+    font-weight: 900;
+    margin-top: 10px;
+    }
+    .language-selection {
+        display: flex;
+        margin-left: 18px;
+    }
+    .language {
+        margin-top: 40px;
+        padding-left: 7px;
+    }
+    .language-selection :hover {
+        /* color:gray; */
+        opacity: 0.5;
+        cursor: pointer;
+        
+    }
+    .search-wrapper-menu {
+        margin-left: 70px;
+        background-color: #FF3E79;
+        border-radius: 100%;
+        padding: 10px 12px;
+     }
+    }
